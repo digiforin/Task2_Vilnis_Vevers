@@ -1,0 +1,41 @@
+/* Menu Styles */
+ul.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.menu li {
+	display: inline;
+	padding: 0 20px;
+}
+
+ul.menu a {
+	text-decoration: none;
+	color: #444;
+	font-size: 18px;
+}
+
+
+<style>
+/* Default styles */
+/* Add your CSS styles here */
+/* Media query for smaller screens */
+
+@media only screen and (max-width: 768px){
+/* Add your responsive CSS styles here */
+}
+</style>
+
+
+<style>
+/* Default styles */
+body{font-size:16px;
+	font-family: Arial, sans-serif;
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+	body{font-size:14px;
+	} 
+}
+</style>
